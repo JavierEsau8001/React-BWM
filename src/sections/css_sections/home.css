@@ -1,0 +1,69 @@
+/* home.css */
+.home-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.home-container h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.vehicle-description, .features, .images, .video, .testimonials {
+  margin: 20px 0;
+}
+
+h3 {
+  color: #101110;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #5461a9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.video {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 405px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials blockquote {
+  background-color: #9da2d4;
+  border-left: 5px solid #000000;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #4040a6;
+}
+
+.social-media { text-align: center; } .social-icons { display: flex; justify-content: center; gap: 20px; } .social-icons img { width: 40px; height: 40px; transition: transform 0.3s; } .social-icons img:hover { transform: scale(1.1); }

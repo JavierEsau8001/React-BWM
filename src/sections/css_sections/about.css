@@ -1,0 +1,35 @@
+/* about.css */
+.about-container {
+  padding: 20px;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-container h2 {
+  color: #114779;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-container h3 {
+  color: #2d2fa5;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-container .images img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
